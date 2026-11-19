@@ -1,0 +1,19 @@
+Evidencias del Caso 1: gestión de préstamos de equipos de laboratorio
+
+Las imágenes muestran el funcionamiento de la aplicación en sus distintas pantallas y flujos:
+
+- 01_portada.png: página principal pública; presenta el sistema, permite explorar el catálogo y muestra el total de equipos registrados y operativos.
+- 02_login.png: formulario de inicio de sesión con usuario y contraseña para el acceso institucional simulado.
+- 03_panel_administrador.png: panel del administrador con indicadores de préstamos activos y vencidos, equipos y préstamos totales, además de accesos a operaciones frecuentes.
+- 04_admin_equipos.png: listado de equipos en Django Admin, con búsqueda, filtros por laboratorio, estado y categoría, y selección para acciones.
+- 05_admin_mantenimiento.png: confirmación de que un equipo fue actualizado mediante la acción masiva para marcarlo en mantenimiento.
+- 06_admin_recordatorio.png: confirmación del envío simulado de recordatorios de devolución desde el listado de préstamos en Django Admin.
+- 07_solicitud_valida_historial.png: historial que muestra el préstamo #16 registrado correctamente, con equipo, docente, fechas, estado y opción de devolución.
+- 08_solicitud_invalida_error.png: formulario de préstamo con errores de validación: docente con tres préstamos activos, cantidad superior al stock y fecha de devolución pasada.
+- 09_logout.png: página principal después de cerrar sesión, con el mensaje de confirmación.
+- 10_panel_docente.png: panel del docente con sus préstamos activos y vencidos, aviso de vencimiento y accesos a nueva solicitud e historial.
+- 11_403_docente_eliminar.png: respuesta 403 que impide al docente acceder a una operación de eliminación sin permisos.
+- 12_panel_asistente.png: panel del asistente con indicadores de préstamos y accesos para registrar préstamos y consultar el historial.
+- 13_auditoria.png: auditoría de acciones que registra accesos denegados, un préstamo, recordatorios y el cambio de estado de un equipo.
+
+Las capturas corresponden a la aplicación local y se incluyen como evidencia visual de sus funciones.
